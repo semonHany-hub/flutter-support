@@ -1,0 +1,10 @@
+- we install sdk (software development kit) zip folder for installing flutter, extract the flutter folder from it into c: disk but avoid putting in program files, windows or downloads folder that may cause permission error.
+- edit system environment variables to add the path of bin folder in the flutter.
+- 'flutter --version'
+- install 'android studio' & 'vysor' 
+- add the extensions(plugins) dart & flutter in VScode and android studio.
+- install a device emulator from AVD(android virtual devices) manager in android studio after custom SDK manager settings(platforms & tools) to match the installed emulators.
+- run the command 'flutter doctor'
+- 'flutter create app-name' to create full flutter app automatically.
+- the extension 'error lens' in VScode used to show the error while writing code before run debugging.
+- "dart run file-name.dart"
