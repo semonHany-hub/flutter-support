@@ -155,4 +155,5 @@ void main(){
   print(fullname("semon", family: "adly")); //with optional named
   //optional parameters should have default value to avoid NULL.
   //required named parameter mustn't have default value.
+  //required parameters with default value should be the last arguments to be passed.
 }
