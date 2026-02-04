@@ -1,3 +1,4 @@
+                                Setup
 - we install sdk (software development kit) zip folder for installing flutter, extract the flutter folder from it into c: disk but avoid putting in program files, windows or downloads folder that may cause permission error.
 - edit system environment variables to add the path of bin folder in the flutter.
 - 'flutter --version'
@@ -8,3 +9,11 @@
 - 'flutter create app-name' to create full flutter app automatically.
 - the extension 'error lens' in VScode used to show the error while writing code before run debugging.
 - "dart run file-name.dart"
+
+                                OOP
+- the polymorphism is a greek word means 'many forms' acts the sub-class as an instance fron the parent(super-class) but with different behavior. 
+  achieved by function overloading or overriding, but as dart doesn't support overloading, it's just method overriding.
+- because dart doesn't support function overloading, in oop there's a concept of named constructors. and optional-positional or optional-named parameters.
+- Multiple inheritance (a class inheriting from multiple superclasses) is not allowed in Dart.
+  Instead, Dart provides mixins, where a class can extend only one class but can use multiple mixins using the with keyword.
+- enum is used to define a fixed set of named constants, which helps avoid errors from using raw (literal) values such as strings or numbers.
