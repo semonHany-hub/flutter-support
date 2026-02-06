@@ -90,8 +90,7 @@ class Parent extends Person{ //hierarchical inheritance (multiple separate class
 class Child extends Parent{ //multilevel inheritance (a class inherit from another class which in turn inherit from another)
   bool ?isPolite;
 
-  Child(String f_name, String l_name, int age, double length, bool isEmployee, this.isPolite)
-  :super(f_name, l_name, age, length, isEmployee);
+  Child(super.age, super.length, super.f_name, super.l_name, super.isEmployee, this.isPolite);
 
   @override
   void hairColor(){
