@@ -11,9 +11,10 @@
 - "dart run file-name.dart"
 
                                 OOP
-- the polymorphism is a greek word means 'many forms' acts the sub-class as an instance fron the parent(super-class) but with different behavior. 
-  achieved by function overloading or overriding, but as dart doesn't support overloading, it's just method overriding.
 - because dart doesn't support function overloading, in oop there's a concept of named constructors. and optional-positional or optional-named parameters.
 - Multiple inheritance (a class inheriting from multiple superclasses) is not allowed in Dart.
   Instead, Dart provides mixins, where a class can extend only one class but can use multiple mixins using the with keyword.
+- the polymorphism is a greek word means 'many forms' acts the sub-class as an instance fron the parent(super-class) but with different behavior. 
+  achieved by function overloading or overriding, but as dart doesn't support overloading, it's just method overriding.
+- Method overriding is when a subclass provides a new implementation for a method that already exists in its superclass using the annotation @override to modify or extend the behavior of the inherited method.
 - enum is used to define a fixed set of named constants, which helps avoid errors from using raw (literal) values such as strings or numbers.

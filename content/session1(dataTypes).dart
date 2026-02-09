@@ -40,6 +40,7 @@ void main() {
   // print("enter your last name->");
   // final finalVariable=stdin.readLineSync()!;
   // finalVariable="adly";
-  //final declared variable like const declared one can't be reassigned.
-  //the difference between const and final is that the const reassignment during the compilation time, while final reassignment used in runtime for value from user or database.
+  // final declared variable like const declared, both can't be reassigned.
+
+  //the difference between const and final is that the const assignment done only during the compilation time, while final assignment done in compilation or runtime for value taken from user or database.
 }
