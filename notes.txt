@@ -17,4 +17,4 @@
 - the polymorphism is a greek word means 'many forms' acts the sub-class as an instance fron the parent(super-class) but with different behavior. 
   achieved by function overloading or overriding, but as dart doesn't support overloading, it's just method overriding.
 - Method overriding is when a subclass provides a new implementation for a method that already exists in its superclass using the annotation @override to modify or extend the behavior of the inherited method.
-- enum is used to define a fixed set of named constants, which helps avoid errors from using raw (literal) values such as strings or numbers.
+- enum (enumerator) class is used to define a fixed set of named constants, which helps avoid errors from using raw (literal) values such as strings or numbers.
