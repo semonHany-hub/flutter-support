@@ -8,7 +8,10 @@
 - run the command 'flutter doctor'
 - 'flutter create app-name' to create full flutter app automatically.
 - the extension 'error lens' in VScode used to show the error while writing code before run debugging.
-- "dart run file-name.dart"
+* run dart file: 
+  - "dart run file-name.dart" or directly 'dart file-name.dart'-> run in TERMINAL.
+  - clicking the Run option appears in grey at the top of main function-> run in DEBUG CONSOLE.
+  - clicking the run icon in top right corner-> show the OUTPUT.
 
                                 OOP
 - because dart doesn't support function overloading, in oop there's a concept of named constructors. and optional-positional or optional-named parameters.
