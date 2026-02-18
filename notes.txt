@@ -18,3 +18,7 @@
   achieved by function overloading or overriding, but as dart doesn't support overloading, it's just method overriding.
 - Method overriding is when a subclass provides a new implementation for a method that already exists in its superclass using the annotation @override to modify or extend the behavior of the inherited method.
 - enum (enumerator) class is used to define a fixed set of named constants, which helps avoid errors from using raw (literal) values such as strings or numbers.
+
+                        asynchronous programming
+- Synchronous programming executes tasks one after another, while asynchronous programming allows tasks to start without waiting for others to finish, so the program doesn’t block during long operations
+- Using await makes asynchronous code look and behave like synchronous code inside the function, but it still runs asynchronously without blocking the whole program.
