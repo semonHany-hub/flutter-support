@@ -25,3 +25,16 @@
                         asynchronous programming
 - Synchronous programming executes tasks one after another, while asynchronous programming allows tasks to start without waiting for others to finish, so the program doesn’t block during long operations
 - Using await makes asynchronous code look and behave like synchronous code inside the function, but it still runs asynchronously without blocking the whole program.
+
+                            flutter app
+- creating new flutter project in android studio: in flutter sdk put the installed 'flutter' directory path 'C:/flutter'... edit platforms to (web, android)only at beginning.
+- in system environment variables the path of flutter must be above the dart-sdk in order for android-studio project to run , as the flutter directory include its own dart version differ from the standalone one so make flutter at the front of variables list prevent this conflict.
+- from settings-> search for android SDK then android SDK command-line tools to install and click ok.
+- run 'flutter doctor --android-licenses' to accept android licenses.
+- the most used files: pubspec.yaml like in dart app store the project name, desciption, assets, dependencies and dev-dependencies.  /  lib folder that contains the main and child widgets dart files
+- 'flutter run -d web-server' give localhost url to run in chrome emulator.
+- the flutter widget constructor receive named parameters where the name written in camelcase and the value is static, enum properties or another child widget.
+- the shortcut stless+enter create a widget class that extends StatelessWidget from the package 'package:flutter/material.dart'.
+- 'alt-enter'-> wrap with widget-> write the widget
+- accessing color values: Colors.specificColor or Color('e.g value in hexaDecimal') then .shade[num] to control its degree of darkness
+- flutter enable import outside files without export it clearly.
