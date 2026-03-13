@@ -38,3 +38,8 @@
 - 'alt-enter'-> wrap with widget-> write the widget
 - accessing color values: Colors.specificColor or Color('e.g value in hexaDecimal') then .shade[num] to control its degree of darkness
 - flutter enable import outside files without export it clearly.
+
+- stateful class unlike the stateless one, has lifecycle methods [initState (the first one to be called), build(responsible of rendering the widget), dispose(called on destoying the widget)]
+- flutter app specially Material has built-in class named Navigator acts as a stack enabling navigation between multiple app screens
+- using Navigator.pushNamed or Navigator.pushReplacementNamed with routes name set in MaterialApp, where replacement means removing the current widget context from the Navigator stack and can't be access later with Navigator.pop(context).
+- sealed class declaration means other classess can inherit from this sealed class in the same file not from outside.
